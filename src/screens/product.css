@@ -1,0 +1,100 @@
+.product-page {
+  font-family: 'Arial', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-header {
+  margin-bottom: 20px;
+}
+
+.go-back {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.product-carousel .carousel-image {
+  max-height: 400px;
+  object-fit: contain;
+}
+
+.product-header-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.price .current-price {
+  font-size: 20px;
+  color: #28a745;
+}
+
+.price .old-price {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #888;
+  margin-left: 10px;
+}
+
+.size-options, .color-options {
+  margin-top: 20px;
+}
+
+.size-buttons .size-button, .color-buttons .color-button {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.size-button.active, .color-button.active {
+  border-color: #007bff;
+  color: #fff;
+  background: #007bff;
+}
+
+.description-section {
+  margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background: #f8f9fa;
+  color: #007bff;
+}
+
+.reviews-section {
+  margin-top: 30px;
+}
+
+.review-item {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+}
